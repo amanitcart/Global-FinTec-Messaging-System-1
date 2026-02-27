@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt install docker.io -y
+sudo usermod -aG docker ubuntu
+mkdir finance-app
+cd finance-app
+git clone https://github.com/yourusername/global-finance-messaging.git .
+
