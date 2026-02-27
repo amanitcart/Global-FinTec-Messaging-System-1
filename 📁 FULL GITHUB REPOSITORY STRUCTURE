@@ -1,0 +1,45 @@
+global-finance-messaging/
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── src/
+│   ├── app.js
+│   ├── server.js
+│   │
+│   ├── config/
+│   │   ├── db.js
+│   │   ├── aws.js
+│   │   └── stripe.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── rateLimit.middleware.js
+│   │
+│   ├── routes/
+│   │   ├── health.routes.js
+│   │   ├── reminder.routes.js
+│   │   └── payment.routes.js
+│   │
+│   ├── controllers/
+│   │   └── reminder.controller.js
+│   │
+│   ├── services/
+│   │   ├── sms.service.js
+│   │   ├── payment.service.js
+│   │   └── storage.service.js
+│   │
+│   └── utils/
+│       └── logger.js
+│
+├── prisma/
+│   └── schema.prisma
+│
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+├── package.json
+├── .gitignore
+└── README.md
